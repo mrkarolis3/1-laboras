@@ -69,7 +69,7 @@ header img {
 }
 
 .login-bar li b {
-    color: rgb(45, 45, 219);
+    color: rgb(14, 14, 105);
     background-color: white;
     padding: 16px 40px;
     border-radius: 5px;
@@ -88,4 +88,56 @@ header img {
 .row {
     max-width: 1920px;
     margin: auto;
+}
+
+.text {
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 275px;
+    font-style: bold;
+}
+
+.text h1 {
+    color: white;
+    font-size: 70px;
+    line-height: 10px;
+    font-weight: border;
+}
+
+.text p {
+    color: white;
+    font-size: 15px;
+    margin-top: 60px;
+    line-height: 20px;
+    font-weight: border;
+}
+
+.button {
+    float: right;
+    list-style: none;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 550px;
+}
+
+.button h1 {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    background-color: rgb(255, 89, 105);
+    padding: 20px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button h1:hover {
+    background-color: rgb(255, 154, 164);
+    padding: 20px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: ease in 1ms;
 }
