@@ -37,7 +37,10 @@ header img {
     font-style: bold;
 }
 
-.navigation-bar li.active:hover {
+.navigation-bar li.active {
+    border-bottom: 4px solid #fff;
+}
+.navigation-bar li:hover{
     border-bottom: 4px solid #fff;
 }
 
@@ -45,7 +48,7 @@ header img {
     float: right;
     list-style: none;
     margin-top: 40px;
-    margin-right: 480px;
+    margin-right: 370px;
 }
 
 .login-bar li {
