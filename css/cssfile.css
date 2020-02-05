@@ -144,3 +144,14 @@ header img {
     text-decoration: none;
     transition: ease in 1ms;
 }
+
+.copyright h1{
+    position: fixed;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    color: white;
+    text-align: right;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
